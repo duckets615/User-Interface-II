@@ -82,14 +82,15 @@ a {
     display: flex;
     margin: 2rem 0rem 0rem 2rem;
 }
-img {
-    width: 35%;
+.marv1 {
+    width: 35rem;
     height: 40rem;
     border: 2pt solid green;
 }
 .text {
     display: flex;
     flex-direction: column;
+    width: 60%;
     margin: 0rem 1rem 0rem 1rem;
     border: 2pt solid black;
 }
@@ -101,6 +102,18 @@ h2 {
 }
 .marv-info {
     font-size: 2rem;
-    margin: 2rem 3rem;
+    margin: 2rem 2rem;
 
+}
+.project {
+    border: 2pt solid red;
+}
+img {
+    width: 40rem;
+    height: 30rem;
+}
+.projects {
+    display: flex;
+    overflow-x: auto;
+    margin: 0rem 26rem 0rem 22rem
 }
