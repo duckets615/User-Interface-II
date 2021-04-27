@@ -41,3 +41,66 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/* ---------------------- */
+html {
+    font-size: 62.5%;
+}
+.container {
+    font-size: 1.6rem;
+    width: 900px;
+    height: 900px;
+    background: gray;
+    border: solid 3pt purple;
+    margin: auto;
+}
+nav {
+    border-bottom: 2pt solid black;
+    display: flex;
+    flex-direction: column;
+}
+.name {
+    font-size: x-large;    
+    margin: 2rem 1rem;
+}
+ul {
+    display: flex;
+    justify-content: flex-start;
+    margin: 0.5rem 0rem 1rem 3rem;
+}
+li {
+    margin: 0rem 0.3rem 0rem 0rem;
+    border: 1pt solid black;
+    padding: 0.5rem;
+}
+a {
+    text-decoration: none;
+    font-size: x-large;
+    color: black;
+}
+.info {
+    display: flex;
+    margin: 2rem 0rem 0rem 2rem;
+}
+img {
+    width: 35%;
+    height: 40rem;
+    border: 2pt solid green;
+}
+.text {
+    display: flex;
+    flex-direction: column;
+    margin: 0rem 1rem 0rem 1rem;
+    border: 2pt solid black;
+}
+h2 {
+    font-size: 5rem;
+    text-align: center;
+    margin: 6rem 0rem 0rem 0rem;
+    
+}
+.marv-info {
+    font-size: 2rem;
+    margin: 2rem 3rem;
+
+}
